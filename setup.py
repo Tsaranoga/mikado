@@ -79,13 +79,13 @@ extensions = [
 setup(
     name="Mikado",
     python_requires=">3.8,<3.11",
-    version="2.3.4",
+    version="2.3.5rc3",
     description="A Python3 annotation program to select the best gene model in each locus",
     long_description=long_description,
     url="https://github.com/EI-CoreBioinformatics/mikado",
     author="Luca Venturini",
     author_email="lucventurini@gmail.com",
-    license="LGPL3",
+    license="LGPL-3.0-or-later",
     tests_require=["pytest"],
     setup_requires=["setuptools<80.9"],
     classifiers=[
